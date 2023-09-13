@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple CRUD model made with lowdb",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint-fix": "standard --fix",
     "test": "jest --passWithNoTests",
