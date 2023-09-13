@@ -1,7 +1,7 @@
 {
-  "name": "clean-code-starter",
-  "version": "2.0.0",
-  "description": "A starter repo with preconfigured code quality tools",
+  "name": "lowdb-crud",
+  "version": "1.0.0",
+  "description": "A simple CRUD model made with lowdb",
   "main": "index.js",
   "scripts": {
     "lint-fix": "standard --fix",
@@ -9,7 +9,7 @@
     "prepare": "husky install"
   },
   "keywords": [
-    "code quality"
+    "crud demo"
   ],
   "author": "Fernando L. Canizo <fernandocanizo@gmail.com> (https://github.com/fernandocanizo/)",
   "license": "MIT",
