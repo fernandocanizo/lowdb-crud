@@ -6,21 +6,21 @@ settings:
 
 dependencies:
   typescript:
-    specifier: '*'
+    specifier: ^5.2.2
     version: 5.2.2
 
 devDependencies:
   husky:
-    specifier: '*'
+    specifier: ^8.0.3
     version: 8.0.3
   jest:
     specifier: ^29.7.0
     version: 29.7.0
   lint-staged:
-    specifier: '*'
+    specifier: ^14.0.1
     version: 14.0.1
   standard:
-    specifier: '*'
+    specifier: ^17.1.0
     version: 17.1.0
 
 packages:
