@@ -1,0 +1,32 @@
+{
+  "name": "clean-code-starter",
+  "version": "2.0.0",
+  "description": "A starter repo with preconfigured code quality tools",
+  "main": "index.js",
+  "scripts": {
+    "lint-fix": "standard --fix",
+    "test": "jest --passWithNoTests",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "code quality"
+  ],
+  "author": "Fernando L. Canizo <fernandocanizo@gmail.com> (https://github.com/fernandocanizo/)",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "*",
+    "jest": "*",
+    "lint-staged": "*",
+    "standard": "*"
+  },
+  "lint-staged": {
+    "*.js": "npm run lint-fix"
+  },
+  "standard": {
+    "ignore": [],
+    "globals": []
+  },
+  "dependencies": {
+    "typescript": "*"
+  }
+}
