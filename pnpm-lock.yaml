@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  lowdb:
+    specifier: ^6.0.1
+    version: 6.0.1
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -2976,6 +2979,13 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
+  /lowdb@6.0.1:
+    resolution: {integrity: sha512-1ktuKYLlQzAWwl4/PQkIr8JzNXgcTM6rAhpXaQ6BR+VwI98Q8ZwMFhBOn9u0ldcW3K/WWzhYpS3xyGTshgVGzA==}
+    engines: {node: '>=16'}
+    dependencies:
+      steno: 3.0.0
+    dev: false
+
   /lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
     dependencies:
@@ -3592,6 +3602,11 @@ packages:
       - eslint-import-resolver-webpack
       - supports-color
     dev: true
+
+  /steno@3.0.0:
+    resolution: {integrity: sha512-uZtn7Ht9yXLiYgOsmo8btj4+f7VxyYheMt8g6F1ANjyqByQXEE2Gygjgenp3otHH1TlHsS4JAaRGv5wJ1wvMNw==}
+    engines: {node: '>=14.16'}
+    dev: false
 
   /string-argv@0.3.2:
     resolution: {integrity: sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==}
