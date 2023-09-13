@@ -15,6 +15,7 @@
   "author": "Fernando L. Canizo <fernandocanizo@gmail.com> (https://github.com/fernandocanizo/)",
   "license": "MIT",
   "devDependencies": {
+    "@types/lowdb": "^1.0.12",
     "@types/node": "^20.6.0",
     "husky": "^8.0.3",
     "jest": "^29.7.0",
