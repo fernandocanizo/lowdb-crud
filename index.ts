@@ -1,4 +1,4 @@
-import { db } from './db.js'
+import db from './db.js'
 import { Book } from './types/Book.js'
 import { Schema } from './types/Schema.js'
 

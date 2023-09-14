@@ -11,8 +11,10 @@ const defaultData: Schema = {
   bookList: [],
 }
 
-export const db = new Low<Schema>(adapter, defaultData)
+const db = new Low<Schema>(adapter, defaultData)
 
 // Read data from JSON file, this will set `db.data` content
 // If JSON file doesn't exist, defaultData is used instead
 await db.read()
+
+export default db
