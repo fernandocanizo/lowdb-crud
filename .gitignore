@@ -2,3 +2,6 @@ node_modules
 
 // typescript emitted files
 dist
+
+// database file
+db.json
